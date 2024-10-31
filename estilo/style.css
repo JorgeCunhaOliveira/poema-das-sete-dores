@@ -1,2 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #c1af93;
+    text-align: center;
+    color: #ffefcf;
+}
+h1{
+    padding-top: 40px;
+    font-size: 8vw;
+}
+.autor{
+    padding-bottom: 40px;
+}
+section{
+    line-height: 3em;
+    font-size: 3vw;
+    padding: 40px;
+}
+.img{
+    background-color: gray;
+    color: white;
+}
+section#img01{
+    background-image: url(../imagens/foga-egito.webp);
+    background-position: left center;
+}
+section#img02{
+    background-image: url(../imagens/simiao.webp);
+    background-position: center center;
+}
+section#img03{
+    background-image: url(../imagens/santa-terezinha.webp);
+    background-position: center top;
+}
 
 
+footer{
+    background-color: #c1af93;
+    text-align: center;
+    color: #ffefcf;
+    padding: 5px;
+}
