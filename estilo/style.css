@@ -40,15 +40,15 @@ section > p{
 }
 section#img01{
     background-image: url(../imagens/simiao.webp);
-    
+    background-position: center center;
 }
 section#img02{
     background-image: url(../imagens/foga-egito.webp);
-    
+    background-position: center center;
 }
 section#img03{
     background-image: url(../imagens/santa-terezinha.webp);
-    
+    background-position: center top;
 }
 strong{
     font-family: Arial, Helvetica, sans-serif;
