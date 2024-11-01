@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,6 +12,8 @@ header{
 h1{
     padding-top: 40px;
     font-size: 8vw;
+    font-family: "Passion One";
+    font-weight: normal;
 }
 .autor{
     padding-bottom: 40px;
@@ -18,11 +22,13 @@ section{
     line-height: 3.5em;
     font-size: 3vw;
     padding: 40px;
+    font-family: "Sriracha" ;
+    font-weight: lighter;
 }
 section > p{
     background-color: rgba(0, 0, 0, 0.26);
-    
-    padding: 5px;
+     padding: 5px;
+     text-shadow: 1px 1px 1px black;
 }
 .img{
     background-color: gray;
@@ -34,17 +40,19 @@ section > p{
 section#img01{
     background-image: url(../imagens/simiao.webp);
     
-    background-position: left center;
 }
 section#img02{
     background-image: url(../imagens/foga-egito.webp);
-    background-position: center center;
+    
 }
 section#img03{
     background-image: url(../imagens/santa-terezinha.webp);
-    background-position: center top;
+    
 }
-
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 footer{
     background-color: #c1af93;
     text-align: center;
